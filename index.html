@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <title>An Event project</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">Projects</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row mt-5 bg-success p-5 bg-warning-subtle" style="height: auto;">
+            <div class="col-12">
+                <h1 class="text-center">Event: 1</h1>
+                <h4 class="text-center">Number of available seats:  23</h4>
+            </div>
+
+            <div class="col-lg-5 bg-secondary bg-opacity-80 p-5 d-flex align-items-center mt-2" style="height: 500px;">
+                <div class="col bg-light bg-opacity-50 d-flex justify-content-center" style="height: 350px" ;>
+                    <img src="./images/400px-President_Barack_Obama.png" class="rounded-circle" alt="">
+                </div>
+            </div>
+            <div class="col-lg-7 bg-secondary border mt-2" style="height: auto;">
+                <div class="pt-5 pb-5">
+                    <h2 class="text-center text-light">Contact Us</h2>
+                    <form class="form-horizontal" action="/action_page.php">
+                        <div>
+
+                            <div class="form-group row text-center align-items-center mt-2">
+                                <label class="control-label col-sm-2" for="email">Name:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="email" placeholder="Enter your name"
+                                        name="email">
+                                </div>
+                            </div>
+                            <div class="form-group row text-center align-items-center mt-2">
+                                <label class="control-label col-sm-2" for="email">Email:</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                                        name="email">
+                                </div>
+                            </div>
+
+                            <div class="form-group row text-center align-items-center mt-2">
+                                <label class="control-label col-sm-2" for="pwd">Password:</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="pwd"
+                                        placeholder="Enter your password" name="pwd">
+                                </div>
+                            </div>
+
+                            <div class="form-group row text-center align-items-center mt-2">
+                                <label class="control-label col-sm-2" for="email">Phone:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="email" placeholder="Enter phone number"
+                                        name="email">
+                                </div>
+                            </div>
+                            <div class="form-group row text-center align-items-center mt-2">
+                                <label class="control-label col-sm-2" for="email">No. seats:</label>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" id="email"
+                                        placeholder="Enter total seat number" name="email">
+                                </div>
+                            </div>
+
+                            <div class="form-group mt-2">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" name="remember"> Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mt-2">
+                                <div class="col-sm-offset-2 col-sm-10 text-center">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                    <button type="submit" class="btn btn-primary">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
